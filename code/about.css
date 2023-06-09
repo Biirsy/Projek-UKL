@@ -1,0 +1,35 @@
+.about-content {
+  font-family: "Poppins", sans-serif;
+}
+
+.about-content .tentangKami {
+  position: absolute;
+  top: 110px;
+  font-size: 25px;
+}
+.about-content .sambutan {
+  position: absolute;
+  top: 170px;
+  font-size: 22px;
+}
+.about-content .p1 {
+  position: absolute;
+  top: 220px;
+  font-weight: 500;
+  font-size: 17px;
+  width: 1000px;
+}
+.about-content .p2 {
+  position: absolute;
+  top: 380px;
+  font-weight: 500;
+  font-size: 17px;
+  width: 1000px;
+}
+.about-content .p3 {
+  position: absolute;
+  top: 540px;
+  font-weight: 500;
+  font-size: 17px;
+  width: 1000px;
+}

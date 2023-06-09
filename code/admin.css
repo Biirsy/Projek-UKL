@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("image/hand.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.edit {
+  font-family: "Poppins", sans-serif;
+  left: 445px;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 300px;
+  text-shadow: 2px 2px #363636;
+}
+
+.admin-button button {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  justify-content: center;
+  left: 580px;
+  top: 400px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 150px;
+  height: 46px;
+}
+
+.admin-button button:hover {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  background-color: #62cdff;
+  border-radius: 15px;
+  width: 150px;
+  height: 46px;
+  transition: 0.1s;
+}
+
+.banner {
+  width: 100%;
+  height: 1vh;
+  background-size: cover;
+  background-position: center;
+}
+td,
+th {
+  padding: 15px 20px;
+  text-align: center;
+}
+
+th {
+  background-color: #56a2e9;
+  color: #fafafa;
+  font-weight: 200;
+}
+
+tr {
+  width: 100%;
+  background-color: #fafafa;
+}
